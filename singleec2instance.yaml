@@ -40,7 +40,7 @@ Resources:
     Type: AWS::EC2::SecurityGroup
     Properties:
       GroupDescription: EC2 Instance Security Group
-      VpcId: !Ref 'VpcId'
+      VpcId: !Ref 'VpcID'
       SecurityGroupIngress:
       - IpProtocol: tcp
         FromPort: 80
